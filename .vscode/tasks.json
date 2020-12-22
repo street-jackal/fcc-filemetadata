@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "deploy",
+			"problemMatcher": [],
+			"label": "npm: deploy",
+			"detail": "npm run build && gh-pages -d dist",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

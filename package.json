@@ -1,0 +1,32 @@
+{
+  "name": "fcc-filemetadata",
+  "version": "0.0.1",
+  "description": "API project for freeCodeCamp",
+  "main": "server.js",
+  "homepage": "https://github.com/street-jackal/fcc-filemetadata",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2"
+  },
+  "engines": {
+    "node": "12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/street-jackal/fcc-filemetadata.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
